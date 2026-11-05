@@ -289,8 +289,8 @@ catalogs:
       version: 9.5.1
   peer:
     '@iconify/json':
-      specifier: ^2.2.540
-      version: 2.2.540
+      specifier: ^2.2.551
+      version: 2.2.551
     '@mathjax/src':
       specifier: ^4.1.3
       version: 4.1.3
@@ -307,8 +307,8 @@ catalogs:
       specifier: ^3.15.0
       version: 3.15.0
     hls.js:
-      specifier: ^1.7.3
-      version: 1.7.3
+      specifier: ^1.7.4
+      version: 1.7.4
     mpegts.js:
       specifier: ^1.8.2
       version: 1.8.2
@@ -316,8 +316,8 @@ catalogs:
       specifier: ^1.0.11
       version: 1.0.11
     pinyin-pro:
-      specifier: ^3.29.4
-      version: 3.29.4
+      specifier: ^3.29.5
+      version: 3.29.5
     postprocessing:
       specifier: ^6.39.5
       version: 6.39.5
@@ -328,11 +328,11 @@ catalogs:
       specifier: ^1.105.1
       version: 1.105.1
     swiper:
-      specifier: ^14.3.0
-      version: 14.3.0
+      specifier: ^14.4.0
+      version: 14.4.0
     three:
-      specifier: ^0.186.1
-      version: 0.186.1
+      specifier: ^0.187.0
+      version: 0.187.0
   prod:
     '@clack/prompts':
       specifier: ^1.8.1
@@ -756,7 +756,7 @@ importers:
     dependencies:
       '@iconify/json':
         specifier: catalog:peer
-        version: 2.2.540
+        version: 2.2.551
       '@lunariajs/core':
         specifier: catalog:dev
         version: 0.2.0(supports-color@10.2.2)
@@ -798,13 +798,13 @@ importers:
         version: 1.0.11
       postprocessing:
         specifier: catalog:peer
-        version: 6.39.5(three@0.186.1)
+        version: 6.39.5(three@0.187.0)
       swiper:
         specifier: catalog:peer
-        version: 14.3.0
+        version: 14.4.0
       three:
         specifier: catalog:peer
-        version: 0.186.1
+        version: 0.187.0
       vue:
         specifier: ^3.5.43
         version: 3.5.43(typescript@6.0.3)
@@ -823,7 +823,7 @@ importers:
     dependencies:
       '@iconify/json':
         specifier: catalog:peer
-        version: 2.2.540
+        version: 2.2.551
       '@vuepress/bundler-vite':
         specifier: catalog:vuepress
         version: 2.0.0-rc.31(@types/node@26.6.4)(@vue/compiler-sfc@3.5.43)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.105.1)(sass@1.105.1)(stylus@0.64.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)(yaml@2.9.1)
@@ -844,7 +844,7 @@ importers:
     dependencies:
       '@iconify/json':
         specifier: catalog:peer
-        version: 2.2.540
+        version: 2.2.551
       '@vuepress/bundler-vite':
         specifier: catalog:vuepress
         version: 2.0.0-rc.31(@types/node@26.6.4)(@vue/compiler-sfc@3.5.43)(jiti@2.7.0)(less@4.9.1(supports-color@10.2.2))(sass-embedded@1.105.1)(sass@1.105.1)(stylus@0.64.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)(yaml@2.9.1)
@@ -989,7 +989,7 @@ importers:
         version: 5.2.1(@svta/cml-cta@1.0.6(@svta/cml-structured-field-values@1.1.3(@svta/cml-utils@1.5.0))(@svta/cml-utils@1.5.0))(@svta/cml-structured-field-values@1.1.3(@svta/cml-utils@1.5.0))(@svta/cml-utils@1.5.0)
       hls.js:
         specifier: catalog:peer
-        version: 1.7.3
+        version: 1.7.4
       mpegts.js:
         specifier: catalog:peer
         version: 1.8.2
@@ -1182,7 +1182,7 @@ importers:
     devDependencies:
       '@iconify/json':
         specifier: catalog:peer
-        version: 2.2.540
+        version: 2.2.551
       '@pinyin-pro/data':
         specifier: catalog:peer
         version: 1.3.1
@@ -1194,16 +1194,16 @@ importers:
         version: 1.0.11
       pinyin-pro:
         specifier: catalog:peer
-        version: 3.29.4
+        version: 3.29.5
       postprocessing:
         specifier: catalog:peer
-        version: 6.39.5(three@0.186.1)
+        version: 6.39.5(three@0.187.0)
       swiper:
         specifier: catalog:peer
-        version: 14.3.0
+        version: 14.4.0
       three:
         specifier: catalog:peer
-        version: 0.186.1
+        version: 0.187.0
 
 packages:
 
@@ -1580,8 +1580,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/json@2.2.540':
-    resolution: {integrity: sha512-lFo8TB/ZOMPvyAvV1fsLBC80m89fAPfqwGnAXa8tw19VZJzEgdC2yAAee+WT3zaweKFfTUGyyEAoEHDtbYVlfg==}
+  '@iconify/json@2.2.551':
+    resolution: {integrity: sha512-V+eqWf/1TcgubkOLoml7Gri6HAk8IelqwIglY7LQuM8G14IuYa7VfHd17bMHcz6Oe81vugsETaJCuBL8iIabQw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -4960,8 +4960,8 @@ packages:
     resolution: {integrity: sha512-nbfWpyRMcMrPMmDwJB+dhX/eiaPKtc2RB+0QZskqJ3WjRA/FDS0e9hZrx8EC/lbEv8gXy98FcDbNa/dspAaJMg==}
     engines: {node: '>=12.0.0'}
 
-  hls.js@1.7.3:
-    resolution: {integrity: sha512-MsPlx6yVW4Qv4C7mEVou4/gk/5cN2dVxOTnrNjPSmyH2f0Ln+/UkG10Ax1PE6OvrmTVPKgQYozTtBaPOuCzq7A==}
+  hls.js@1.7.4:
+    resolution: {integrity: sha512-3GlxGdPvT2YHvQYOt+yOzT/DEior/qJVNIylHA77kgeoBTdQQqi70GwefNEUmHQeNGyjC8U62+bruqW/Tpm+tg==}
 
   hookable@5.5.3:
     resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
@@ -6129,8 +6129,8 @@ packages:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
-  pinyin-pro@3.29.4:
-    resolution: {integrity: sha512-SPXpDT2cHEy+d26V1RXYMlVzXN42hotFAak1fzyWPi4o2dKXb61UqD4pzxDJHwk6gbv8vQ6EfErd+hYX0Qhzug==}
+  pinyin-pro@3.29.5:
+    resolution: {integrity: sha512-Fk5YoRmtdHqJWqAuzYVG/NzvzeCbaG+ZEwbY6Nbps3QAIrvQQEtcm49frcyCM8i2b5najnzPDtYqrHRYTTiuwQ==}
 
   pkg-types@1.3.1:
     resolution: {integrity: sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==}
@@ -6886,8 +6886,8 @@ packages:
   svg-tags@1.0.0:
     resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
 
-  swiper@14.3.0:
-    resolution: {integrity: sha512-qw0Xv1+sylM8KCQxWxV2iYAK2G6XjFGPZ/8F1baEsY8DK4A3sTnLx6jUJ0G71rDbVQ05JHMWkcWmJ5NvlxZO0w==}
+  swiper@14.4.0:
+    resolution: {integrity: sha512-6axnAuBsttFJe0gwsM5tT203/Bts0vcI+FwIX6dqFE4pUFVW6qrdRprNFQVxOYMW7V0S6A/KIqJ6JaPpNN2MCw==}
     engines: {node: '>= 4.7.0'}
 
   sync-child-process@1.0.2:
@@ -6923,8 +6923,8 @@ packages:
     peerDependencies:
       tslib: ^2
 
-  three@0.186.1:
-    resolution: {integrity: sha512-blFeqb49wRCSGUGj7gtpfnSGHy2lwDk94RhUmS1c/hTby70kvChbWpkJ4Pm1390LqzzvTmzgXKHPEafJwCb8jA==}
+  three@0.187.0:
+    resolution: {integrity: sha512-Qiu7R+Cmh8CstZsY1uJOSWnVlfo7ZtNLV7mF8Jltk3LB3AtDu9cRZlcnRKkAk8Y4z6KKw35z7Y7Urd7jWY8etA==}
 
   tiny-image-size@1.0.0:
     resolution: {integrity: sha512-0A3CAfJrw+Cp6mxJgumyvqXx19t6WvvaZke2qmJATnHjoHety9UBZPTeAVd5jcyO7wpSIUov3VGn1NTHjH6cdg==}
@@ -7953,7 +7953,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@iconify/json@2.2.540':
+  '@iconify/json@2.2.551':
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 2.0.3
@@ -11642,7 +11642,7 @@ snapshots:
 
   highlight.js@11.12.0: {}
 
-  hls.js@1.7.3: {}
+  hls.js@1.7.4: {}
 
   hookable@5.5.3: {}
 
@@ -13107,7 +13107,7 @@ snapshots:
 
   picomatch@4.0.7: {}
 
-  pinyin-pro@3.29.4: {}
+  pinyin-pro@3.29.5: {}
 
   pkg-types@1.3.1:
     dependencies:
@@ -13189,9 +13189,9 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.2
 
-  postprocessing@6.39.5(three@0.186.1):
+  postprocessing@6.39.5(three@0.187.0):
     dependencies:
-      three: 0.186.1
+      three: 0.187.0
 
   prelude-ls@1.2.1: {}
 
@@ -13949,7 +13949,7 @@ snapshots:
 
   svg-tags@1.0.0: {}
 
-  swiper@14.3.0: {}
+  swiper@14.4.0: {}
 
   sync-child-process@1.0.2:
     dependencies:
@@ -13994,7 +13994,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  three@0.186.1: {}
+  three@0.187.0: {}
 
   tiny-image-size@1.0.0: {}
 
